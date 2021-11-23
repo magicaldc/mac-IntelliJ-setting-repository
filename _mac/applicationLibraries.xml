@@ -1,0 +1,16 @@
+<application>
+  <component name="libraryTable">
+    <library name="bootstrap-icons" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdn.jsdelivr.net_npm_bootstrap-icons@1.3.0_font_bootstrap-icons.css" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdn.jsdelivr.net_npm_bootstrap-icons@1.3.0_font_bootstrap-icons.css" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+  </component>
+</application>

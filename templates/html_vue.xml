@@ -1,0 +1,7 @@
+<templateSet group="html_vue">
+  <template name="vue" value="&lt;div id=&quot;app&quot;&gt;&#10;    {{ msg }}&#10;&lt;/div&gt;&#10;&#10;&#10;&lt;script src=&quot;js/vue.js&quot;&gt;&lt;/script&gt;&#10;&lt;script&gt;&#10;&#10;    const app = new Vue({&#10;        el: &quot;#app&quot;,&#10;        data: {&#10;            msg: &quot;Hello,World!&quot;,&#10;        }&#10;    })&#10;&lt;/script&gt;" description="basic_helloworld" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+</templateSet>

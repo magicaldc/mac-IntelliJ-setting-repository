@@ -1,0 +1,100 @@
+<templateSet group="Java custom">
+  <template name="soutctn" value="System.out.println(Thread.currentThread().getName() + &quot;----comes in$VALUE$&quot;);$END$" description="print name of current thread" toReformat="false" toShortenFQNames="true">
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="newts" value="new Thread(() -&gt; {&#10;    $END$&#10;}, &quot;$NAME$&quot;).start();" description="start a thread with lambda" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="tsleep" value="try {&#10;    TimeUnit.SECONDS.sleep($TIMEOUT$);&#10;    $END$&#10;} catch (InterruptedException e) {&#10;    e.printStackTrace();&#10;}" description="sleep for seconds" toReformat="false" toShortenFQNames="true">
+    <variable name="TIMEOUT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="tmsleep" value="TimeUnit.MILLISECONDS.sleep($TIMEOUT$);$END$" description="sleep for milli seconds" toReformat="false" toShortenFQNames="true">
+    <variable name="TIMEOUT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="trylock" value="$NAME$.lock();&#10;try {&#10;    $END$&#10;} finally {&#10;    $NAME$.unlock();&#10;}" description="juc lock demo" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="lock" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="newftask" value="FutureTask&lt;$V$&gt; $TASK$ = new FutureTask&lt;$V$&gt;(() -&gt; {&#10;    $END$&#10;    return $VALUE$;&#10;});" description="create a instance of FutureTask" toReformat="false" toShortenFQNames="true">
+    <variable name="TASK" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="V" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="newtp" value="ExecutorService threadPool = new ThreadPoolExecutor(&#10;        4,&#10;        4,&#10;        2L,&#10;        TimeUnit.SECONDS,&#10;        new LinkedBlockingQueue&lt;&gt;(10),&#10;        Executors.defaultThreadFactory(),&#10;        new ThreadPoolExecutor.AbortPolicy());" description="create a thread pool" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="bootmain" value="public static void main(String[]args){&#10;    SpringApplication.run($CLASS_NAME$.class, args);&#10;}" description="create spring boot main method" toReformat="false" toShortenFQNames="true">
+    <variable name="CLASS_NAME" expression="className()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="test" value="/**&#10; * $DESCRIPTION$&#10; */&#10;@Test&#10;public void test$NAME$(){&#10;    $END$&#10;}" description="测试方法" toReformat="false" toShortenFQNames="true">
+    <variable name="DESCRIPTION" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="gettname" value="Thread.currentThread().getName()" description="获得当前线程的名字" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="getfun" value="@ApiOperation(&quot;$API_DESC$&quot;)&#10;@GetMapping(&quot;$API_URL$&quot;)&#10;public R $METHOD_NAME$() {&#10;    $END$&#10;    return R.ok();&#10;}" description="Get Mapping Controller Method" toReformat="false" toShortenFQNames="true">
+    <variable name="API_DESC" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="API_URL" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="METHOD_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="putfun" value="@ApiOperation(&quot;$API_DESC$&quot;)&#10;@PutMapping(&quot;$API_URL$&quot;)&#10;public R $METHOD_NAME$() {&#10;    $END$&#10;    return R.ok();&#10;}" description="Put Mapping Controller Method" toReformat="false" toShortenFQNames="true">
+    <variable name="API_DESC" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="API_URL" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="METHOD_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="postfun" value="@ApiOperation(&quot;$API_DESC$&quot;)&#10;@PostMapping(&quot;$API_URL$&quot;)&#10;public R $METHOD_NAME$() {&#10;    $END$&#10;    return R.ok();&#10;}" description="Post Mapping Controller Method" toReformat="false" toShortenFQNames="true">
+    <variable name="API_DESC" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="API_URL" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="METHOD_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="delfun" value="@ApiOperation(&quot;$API_DESC$&quot;)&#10;@DeleteMapping(&quot;$API_URL$&quot;)&#10;public R $METHOD_NAME$() {&#10;    $END$&#10;    return R.ok();&#10;}" description="Delete Mapping Controller Method" toReformat="false" toShortenFQNames="true">
+    <variable name="API_DESC" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="API_URL" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="METHOD_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="soutl" value="System.out.println(&quot;----------------------------------------✂----------------------------------------&quot;);" description="print a line to split test code" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>

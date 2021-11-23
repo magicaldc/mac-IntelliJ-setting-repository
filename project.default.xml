@@ -1,0 +1,113 @@
+<application>
+  <component name="ProjectManager">
+    <defaultProject>
+      <component name="CodeInsightWorkspaceSettings">
+        <option name="optimizeImportsOnTheFly" value="true" />
+      </component>
+      <component name="CompilerConfiguration">
+        <option name="BUILD_PROCESS_HEAP_SIZE" value="2700" />
+        <option name="BUILD_PROCESS_ADDITIONAL_VM_OPTIONS" value="-Xms2024m -Xmx2024m" />
+        <bytecodeTargetLevel target="8" />
+      </component>
+      <component name="MavenImportPreferences">
+        <option name="generalSettings">
+          <MavenGeneralSettings>
+            <option name="localRepository" value="$USER_HOME$/my_java_tools/maven_repo/MainRepo" />
+            <option name="mavenHome" value="$USER_HOME$/my_java_tools/maven-3.8.2" />
+            <option name="threads" value="2" />
+            <option name="userSettingsFile" value="$USER_HOME$/my_java_tools/maven-3.8.2/conf/settings.xml" />
+          </MavenGeneralSettings>
+        </option>
+        <option name="importingSettings">
+          <MavenImportingSettings>
+            <option name="vmOptionsForImporter" value="-Xms2024m -Xmx2024m" />
+          </MavenImportingSettings>
+        </option>
+      </component>
+      <component name="MavenRunner">
+        <option name="vmOptions" value="-Xms2024m -Xmx2024m" />
+      </component>
+      <component name="ProjectDictionaryState">
+        <dictionary name="codemao" />
+      </component>
+      <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+      <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+      <component name="PropertiesComponent">
+        <property name="node.js.selected.package.stylelint" value="" />
+        <property name="project.structure.last.edited" value="Project" />
+        <property name="project.structure.proportion" value="0.0" />
+        <property name="project.structure.side.proportion" value="0.16251636" />
+        <property name="settings.editor.selected.configurable" value="fileTemplates" />
+      </component>
+      <component name="VcsManagerConfiguration">
+        <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+        <option name="CODE_SMELLS_PROFILE" value="Project Default" />
+        <option name="CHECK_NEW_TODO" value="false" />
+        <option name="SHOW_DIRTY_RECURSIVELY" value="true" />
+        <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+        <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+      </component>
+      <component name="masterDetails">
+        <states>
+          <state key="GlobalLibrariesConfigurable.UI">
+            <settings>
+              <splitter-proportions>
+                <option name="proportions">
+                  <list>
+                    <option value="0.16251636" />
+                  </list>
+                </option>
+              </splitter-proportions>
+            </settings>
+          </state>
+          <state key="JdkListConfigurable.UI">
+            <settings>
+              <last-edited>1.8</last-edited>
+              <splitter-proportions>
+                <option name="proportions">
+                  <list>
+                    <option value="0.16251636" />
+                  </list>
+                </option>
+              </splitter-proportions>
+            </settings>
+          </state>
+          <state key="ProjectJDKs.UI">
+            <settings>
+              <last-edited>1.8</last-edited>
+              <splitter-proportions>
+                <option name="proportions">
+                  <list>
+                    <option value="0.2" />
+                  </list>
+                </option>
+              </splitter-proportions>
+            </settings>
+          </state>
+          <state key="ProjectLibrariesConfigurable.UI">
+            <settings>
+              <splitter-proportions>
+                <option name="proportions">
+                  <list>
+                    <option value="0.16251636" />
+                  </list>
+                </option>
+              </splitter-proportions>
+            </settings>
+          </state>
+          <state key="ScopeChooserConfigurable.UI">
+            <settings>
+              <splitter-proportions>
+                <option name="proportions">
+                  <list>
+                    <option value="0.13531798" />
+                  </list>
+                </option>
+              </splitter-proportions>
+            </settings>
+          </state>
+        </states>
+      </component>
+    </defaultProject>
+  </component>
+</application>

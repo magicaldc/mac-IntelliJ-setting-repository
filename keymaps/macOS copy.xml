@@ -1,0 +1,12 @@
+<keymap version="1" name="macOS copy" parent="Mac OS X 10.5+">
+  <action id="ChangesView.SetDefault" />
+  <action id="CodeCompletion">
+    <keyboard-shortcut first-keystroke="ctrl meta comma" />
+  </action>
+  <action id="Editor ChooseTranslatorAction">
+    <keyboard-shortcut first-keystroke="ctrl meta y" />
+  </action>
+  <action id="MethodDown">
+    <keyboard-shortcut first-keystroke="ctrl down" />
+  </action>
+</keymap>

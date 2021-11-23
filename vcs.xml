@@ -1,0 +1,70 @@
+<application>
+  <component name="GitRememberedInputs">
+    <option name="visitedUrls">
+      <list>
+        <UrlAndUserName>
+          <option name="url" value="https://gitee.com/DechengKong/RuoYi.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://gitee.com/DechengKong/lenosp.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/thymeleaf/thymeleaf-docs.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://gitee.com/naan1993/guns.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://gitee.com/stylefeng/guns.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://gitee.com/DechengKong/leet_code.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://gitee.com/veal98/Echo.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://gitee.com" />
+          <option name="userName" value="13304469618" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/macrozheng/mall-tiny.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://git.nowcoder.com" />
+          <option name="userName" value="codemaokdc@163.com" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://gitee.com/magickdc/gmall.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://gitee.com/magickdc/mall-tiny.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+      </list>
+    </option>
+    <option name="cloneParentDir" value="$USER_HOME$/IdeaProjects" />
+  </component>
+  <component name="Vcs.Log.App.Settings">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Subject" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+      </list>
+    </option>
+  </component>
+  <component name="VcsApplicationSettings">
+    <option name="COMMIT_FROM_LOCAL_CHANGES" value="true" />
+  </component>
+</application>
